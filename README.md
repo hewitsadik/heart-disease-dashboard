@@ -43,17 +43,3 @@ heart-disease-dashboard/
 ├── README.md               # This file
 └── requirements.txt        # Python dependencies
 
-### Key Improvements:
-1. **Badges**: Added shields.io badges for visual metadata
-2. **Preview Image**: Placeholder for dashboard screenshot
-3. **File Structure**: Clear directory tree
-4. **Code Blocks**: Proper formatting for commands/embedding
-5. **Contributing Guide**: Standard GitHub workflow
-6. **License Clarification**: Separates dataset terms from code license
-
-To use:
-1. Save as `README.md` in your repo root
-2. Replace placeholder image with actual dashboard screenshot
-3. Add your `requirements.txt` if using Python preprocessing
-
-Would you like me to add any specific technical details about the data processing or visualization methods?
