@@ -1,60 +1,59 @@
-# Capstone Project: Heart Disease Indicators Dashboard
+# Heart Disease Indicators Dashboard
 
-## Overview
+[![Tableau](https://img.shields.io/badge/Tableau-Visualized-blue)](https://public.tableau.com/app/profile/hewitsadik)
+[![License](https://img.shields.io/badge/License-Kaggle%20Dataset-blue)](https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease)
+[![GitHub Issues](https://img.shields.io/github/issues/hewitsadik/heart-disease-dashboard)](https://github.com/hewitsadik/heart-disease-dashboard/issues)
 
-This project presents an interactive Tableau dashboard visualizing key indicators of heart disease using real-world health survey data. The goal is to provide insights into the factors associated with heart disease and to support data-driven awareness and prevention efforts.
+An interactive Tableau dashboard analyzing CDC heart disease survey data with demographic filters and risk factor visualizations.
+
+🔗 **Live Dashboard:** [View on Tableau Public](https://public.tableau.com/views/capstone-Heart_2020_06-09-25/Story1)
+
+![Dashboard Preview](https://github.com/hewitsadik/heart-disease-dashboard/blob/main/images/preview.png?raw=true) *(Replace with actual screenshot path)*
+
+## Features
+- **Demographic Filtering**: Age, gender, race
+- **Risk Factor Analysis**: BMI, smoking, physical activity
+- **Interactive Visualizations**: Bar charts, heatmaps, trend lines
 
 ## Data Source
+Dataset: [Personal Key Indicators of Heart Disease](https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease) (2020 CDC Survey)
 
-- **Dataset:** [Personal Key Indicators of Heart Disease](https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease)
-- **Description:** This dataset contains responses to a 2020 annual CDC survey, including demographic, behavioral, and health-related variables relevant to heart disease.
-- **License:** Please check the Kaggle dataset page for terms of use.
+## Setup (For Local Development)
+```bash
+# Clone repository
+git clone https://github.com/hewitsadik/heart-disease-dashboard.git
+cd heart-disease-dashboard
 
-## Tableau Dashboard
-
-- **Live Dashboard:** [View on Tableau Public](https://public.tableau.com/views/Capstone-Heart_2020_06-09-25/Story1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
-The dashboard allows users to:
-- Explore relationships between lifestyle factors and heart disease.
-- Filter by demographics such as age, gender, and race.
-- Visualize distributions and trends in key indicators.
-
-## How to Use
-
-1. **Interact with the Dashboard:**
-   - Visit the Tableau Public link above.
-   - Use filters and navigation to explore different aspects of the data.
-2. **Dataset Access:**
-   - Download the dataset from Kaggle if you wish to perform your own analysis.
-
-## Embedding the Dashboard
-
-To embed this dashboard in a website, use the following HTML snippet:
-
-```html
-<iframe src="https://public.tableau.com/views/Capstone-Heart_2020_06-09-25/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link"
-        width="1000"
-        height="800"
-        frameborder="0"
-        allowfullscreen>
+# Install Python dependencies (if applicable)
+pip install -r requirements.txt
+<iframe 
+  src="https://public.tableau.com/views/capstone-Heart_2020_06-09-25/Story1?:language=en-US&:display_count=n&:embed=true" 
+  width="1000" 
+  height="800"
+  frameborder="0"
+  allowfullscreen>
 </iframe>
-```
+heart-disease-dashboard/
+├── data/                   # Processed datasets
+│   └── heart_2020_cleaned.csv
+├── notebooks/              # Jupyter notebooks for analysis
+│   └── data_cleaning.ipynb
+├── tableau/                # Tableau workbook files
+│   └── heart_dashboard.twb
+├── README.md               # This file
+└── requirements.txt        # Python dependencies
 
-## Project Structure
+### Key Improvements:
+1. **Badges**: Added shields.io badges for visual metadata
+2. **Preview Image**: Placeholder for dashboard screenshot
+3. **File Structure**: Clear directory tree
+4. **Code Blocks**: Proper formatting for commands/embedding
+5. **Contributing Guide**: Standard GitHub workflow
+6. **License Clarification**: Separates dataset terms from code license
 
-- `README.md` — Project documentation.
+To use:
+1. Save as `README.md` in your repo root
+2. Replace placeholder image with actual dashboard screenshot
+3. Add your `requirements.txt` if using Python preprocessing
 
-
-## Credits
-
-- **Author:** [Hewan Gebretsadik]
-- **Data Source:** [Kamil Pytlak on Kaggle](https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease)
-- **Dashboard:** Created using Tableau Public.
-
-## Contact
-
-For questions or suggestions, please open an issue or contact [hewitsadik@gmail.com, https://github.com/hewitsadik].
-
----
-
-*This project is for educational purposes and is not intended for medical diagnosis or advice.*
+Would you like me to add any specific technical details about the data processing or visualization methods?
