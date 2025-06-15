@@ -43,17 +43,17 @@ To embed this dashboard in a website, use the following HTML snippet:
 ## Project Structure
 
 - `README.md` — Project documentation.
-- (Optional) Add scripts, data processing notebooks, or other files as needed.
+
 
 ## Credits
 
-- **Author:** [hewitsadik]
+- **Author:** [Hewan Gebretsadik]
 - **Data Source:** [Kamil Pytlak on Kaggle](https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease)
 - **Dashboard:** Created using Tableau Public.
 
 ## Contact
 
-For questions or suggestions, please open an issue or contact [https://github.com/hewitsadik].
+For questions or suggestions, please open an issue or contact [hewitsadik@gmail.com, https://github.com/hewitsadik].
 
 ---
 
