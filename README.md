@@ -47,13 +47,13 @@ To embed this dashboard in a website, use the following HTML snippet:
 
 ## Credits
 
-- **Author:** [Your Name or GitHub Username]
+- **Author:** [hewitsadik]
 - **Data Source:** [Kamil Pytlak on Kaggle](https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease)
 - **Dashboard:** Created using Tableau Public.
 
 ## Contact
 
-For questions or suggestions, please open an issue or contact [your email or GitHub profile].
+For questions or suggestions, please open an issue or contact [https://github.com/hewitsadik].
 
 ---
 
